@@ -159,10 +159,11 @@ section.team .item .text{
 section.team .item .btn{
 	color: #fff;
 	padding: 5px;
-	margin-top: auto; 
-	margin-bottom: 10px;
 	
-	
+}
+
+section.team .item .section_btn .btn {
+    margin: auto auto 10px auto
 }
 
 section.team .item .btn a {
