@@ -159,7 +159,8 @@ section.team .item .text{
 section.team .item .btn{
 	color: #fff;
 	padding: 5px;
-	margin-top: auto;
+	margin-top: auto; 
+	margin-bottom: 10px;
 	
 	
 }
