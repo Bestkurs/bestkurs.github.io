@@ -1,1 +1,254 @@
+body,div,dl,dt,dd,ul,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,input,textarea,p,blockquote,th,td,menu{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img,abbr{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}ul li,menu li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}legend{color:#000;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}
 
+html{font-size: 16px;}
+body{background: #eee; font-family: 'Myriad Pro', sans-serif;}
+a{color: inherit; text-decoration: none;}
+
+.wrap{
+	max-width: 960px;
+	margin: 0 auto;
+	height: 100%;
+	min-height: inherit;
+	padding: 0 5px;
+	overflow: hidden;
+}
+
+.titles {
+	text-align: center;
+	align-items: center;
+	margin-top: 5%;
+	width: 100%;
+}
+
+.titles h1 {
+	color: #fff;
+	font-size: 4rem;
+	margin: 20px;
+	font-weight: bold;
+} 
+
+.titles p {
+	color: #ddd;
+	font-size: 1.5rem;
+}
+
+.last {
+	margin-bottom: 40px;
+}
+
+.titles h2 {
+	color: #fff;
+	font-size: 2rem;
+	margin: 24px 0;
+	font-weight: bold;
+
+}
+
+nav .logo{
+	flex: 1 1 auto;
+}
+
+nav .logo .ltitle{
+	display: inline-block;
+	font-size: 1.8rem;
+	line-height: 1.5rem;
+}
+
+nav .logo img, nav .logo .ltitle{
+	vertical-align: bottom;
+}
+
+header{
+	background: #76a8cb;
+	min-height: 250px;
+}
+
+nav{
+	background: #8ccbf9;
+	min-height: 100px;
+}
+
+/* --------------------------------------------- */
+
+nav .wrap{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-items: center;
+	color: #fff;
+}
+
+nav .logo{
+	flex: 1 1 200px;
+}
+
+nav .menu-btn{display: none; width: 100%; cursor: pointer; text-align: center;}
+
+nav menu li{
+	display: table-cell;
+	font-size: 1.1rem;
+}
+
+nav menu li a{
+	padding: 5px 10px;
+	margin: 0px 5px;
+}
+
+nav menu li a:hover {
+	color: #000;
+}
+
+
+section.team{
+	background: #dadada;
+}
+
+section.team .titles h2 {
+	margin: 0 0 10px 0;
+	padding: 0;
+	color: #6cc372;
+}
+
+section.team .titles p{
+	color: #232324;
+	font-size: 1.2rem;
+	margin-bottom: 40px;
+}
+
+section.team .wrap{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+section.team .item{
+	text-align: center;
+	background: #fff;
+	border-radius: 5px;
+	padding: 15px 15px 10px;
+	flex: 1;
+	margin: 10px;
+	max-width: 330px;
+	min-width: 150px;
+}
+
+
+section.team .item-pairs{
+	flex: 1 1 470px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+section.team .item img{
+	width: 80%;
+	border: 0px solid #6cc372;
+	
+}
+
+section.team .item .subtitle{
+	color: #6cc372;
+	font-size: 1.5rem;
+	margin: 3px 0;
+}
+
+section.team .item .text{
+	color: rgba(073 152 133 );
+}
+
+section.team .item .btn{
+	color: #fff;
+	padding: 5px;
+	
+}
+
+section.team .item .btn a {
+	display: flex;
+	padding: 7px 50px;
+	justify-content: center;
+}
+
+.linkus {
+	background: #6cc372;
+	display: flex;
+	align-content: center;
+	margin: 0 auto;
+
+}
+
+.linkus:hover {
+	background: #6cc390;
+	color: #000;
+}
+
+@media all and (max-width: 500px){
+	html{font-size: 18px;}
+	nav .logo{text-align: center;}
+}
+
+/*=================*/
+
+#pagination {
+    margin: 25px 0;
+}
+
+#pagination ul {
+    display: flex;
+    justify-content: center;
+}
+
+#pagination ul li {
+    margin: 0 4px;
+}
+
+#pagination ul a {
+    border: 2px solid #cdcdcd;
+    border-radius: 50%;
+    font-size: 110%;
+    color: #848484;
+    display: inline-block;
+    padding: 8px 0;
+    text-align: center;
+    text-decoration: none;
+    width: 36px;
+}
+
+#pagination ul li.active a {
+    border-color: #dd5555;
+}
+
+#pagination ul li > a:hover {
+	color: #77cf77;
+	border: 2px solid #77cf77;
+}
+
+#pagination ul li.active a,  #pagination ul a:hover {
+    color: #dd5555;
+}
+
+#pagination ul span {
+    color: #848484;
+    display: inline-block;
+    padding-top: 20px;
+}
+
+.pagination {
+	background: #cffcfe;
+}
+
+@media (max-width: 640px) {
+    #pagination ul a {
+        padding: 5px 0;
+        width: 33px;
+    }
+    #pagination ul span {
+        padding-top: 15px;
+    }
+}
+
+/*=================*/
+
+.footer {
+	text-align: center;
+	margin: 20px;
+}
