@@ -154,7 +154,7 @@ section.team .item .subtitle{
 
 section.team .item .text{
 	color: rgba(073 152 133 );
-	display: flex; 
+	display: block; 
 	height: 100%;
 }
 
